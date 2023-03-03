@@ -1,1 +1,2 @@
-SELECT * FROM opportunities.
+SELECT * FROM opportunities opp
+LEFT JOIN opportunity_studies os On os.opportunity_id = opp.id
